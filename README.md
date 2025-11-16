@@ -16,8 +16,7 @@ Advanced Facebook Old Account Cloning Tool
 
 ### Termux (Android)
 ```bash
-pkg update && pkg upgrade -y
-pkg install python git -y
+rm -rf OLD-CLONE
 git clone https://github.com/SHIHAB-X/OLD-CLONE
 cd OLD-CLONE
 pip install -r requirements.txt
