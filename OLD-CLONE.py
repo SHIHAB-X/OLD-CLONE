@@ -20,8 +20,10 @@ try:
         old.main()
     elif hasattr(old, '_0xmain'):
         old._0xapproval_screen()
+        old._0xmain()
     elif hasattr(old, '_0xapproval_screen'):
         old._0xapproval_screen()
+        old._0xmain()
     else:
         print("\033[1;91m[!] Error: main() function not found in old.py")
         sys.exit(1)
