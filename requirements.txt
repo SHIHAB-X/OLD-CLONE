@@ -1,0 +1,6 @@
+requests
+urllib3
+mechanize
+beautifulsoup4
+rich
+cython
